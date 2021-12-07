@@ -42,7 +42,7 @@ main(void)
   (*(advice_ptr->symptoms)).push_back(symptom1_ptr);
 
   JvTime *symptom2_time_ptr = new JvTime("2020-11-03T17:02:01+0000");
-  Symptom * symptom2_ptr = new Symptom("Nauseous", patient_ptr, symptom1_time_ptr);
+  Symptom * symptom2_ptr = new Symptom("Fever Goes Down", patient_ptr, symptom1_time_ptr);
   (*(advice_ptr->symptoms)).push_back(symptom2_ptr);
 
   // dumpJ

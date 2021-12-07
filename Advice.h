@@ -2,7 +2,7 @@
 #ifndef _ADVICE_H_
 #define _ADVICE_H_
 
-// Advice.h - change comment to advice
+// Advice.h - change Advice to advice
 #include "Core.h"
 #include "Symptom.h"
 #include "Message.h"
